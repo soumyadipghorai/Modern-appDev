@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .name-para{
+            font-size: 10px;
+        }
+
+        #personal{
+            color: aqua;
+        }
+
+        /* only decendent of form */
+        form > input{ 
+            background-color: lightcyan;
+        }
+        
+        /* pseudo class selector */
+        form > input:hover{
+            background-color: rgb(81, 152, 30);
+        }
+
+        /* pseudo element selector  */
+        form p::first-letter{
+            color: red;
+            font-size: 20px;
+        }
+
+        /* attribute selector */
+        input[x='y']{
+            background-color: aquamarine;
+        }
+
+        input[a='b']{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <p class="name-para">Enter the name </p> 
+        <input type="text">
+        <div id="personal">
+            <p>enter the age</p>
+            <input type="text" a='b'>
+        </div>
+        <div id="official">
+            <p>enter your roll number</p>
+            <input type="text" x='y'>
+        </div>
+    </form>
+</body>
+</html>
