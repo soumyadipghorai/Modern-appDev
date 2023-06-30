@@ -75,3 +75,29 @@ Tools :
 template engine -> jinja2
 
 * Accessibility 
+**standard**
+
+interplay between many components of a page 
+1. web content - HTML, images
+2. user-agent: desktop browser, mobile browser, speech oriented browser 
+3. authoring tool: text editor, compiler  
+
+**perceivable** 
+1. text alt 
+2. captions and other alt
+3. make it easier for users to see and hear content 
+
+**operable** 
+1. keyboard 
+2. enough time 
+3. inputs other than keyboard 
+4. don't use content that causes seizures 
+5. help users navigate and find content 
+
+**Understandable** 
+1. readable and understandable 
+2. avoid and correct mistakes -> input int 
+3. predictable 
+
+**robust** 
+1. compatibility 
