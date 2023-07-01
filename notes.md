@@ -101,3 +101,5 @@ interplay between many components of a page
 
 **robust** 
 1. compatibility 
+
+network simulation and page simulation 

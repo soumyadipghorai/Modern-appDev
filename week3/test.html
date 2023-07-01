@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            console.time();
+            console.log('hello');
+            console.error('error');
+            console.warn('warning');
+            console.timeEnd(); // how much time it took to run
+
+            var x = [
+                {'name' : 'ghorai', 'age' : 20},
+                {'name' : 'ghorai1', 'age' : 21},
+            ]
+
+            console.table(x);
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <p>enter name</p>
+        <input type="text" x = 'z'>
+        <div id="personal">
+            <p>enter age</p>
+            <input type="text" x = 'y'>
+        </div>
+        <div id="official">
+            <p>enter roll</p>
+            <input type="text" name="" id="">
+        </div>
+        <input type="button" onclick="hello()" value = 'hello'>
+    </form>
+</body>
+</html>
