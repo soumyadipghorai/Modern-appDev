@@ -103,3 +103,27 @@ interplay between many components of a page
 1. compatibility 
 
 network simulation and page simulation 
+
+**persistent storage**
+if we use python datastructures to store the data might get lost after we stop the server, but we need to retrive the info, we can use csv or tsv to handle this. but it has its own limitations so we move to databases. 
+
+NOSQL databases because of the structure might be slower at times to process the querries than the SQL databases. 
+
+### Relationship types : 
+
+1. One-to-one -> student has one roll number, one roll number uniquely identifies one student.
+2. one-to-many (many-to-one) -> one student can live in one hostel but many student can live in one hostel, save email in folders. one email in one folder but one folder has many email.
+3. many-to-many -> one student can register into many courses, one course can have many students. 
+
+**Diagrams :**
+1. ERD 
+2. UML 
+3. class relation
+
+A -||---|| B        one-to-one
+A -||--o<- B        one-to-many
+A --<- B            one-to-many (crow's feet)
+
+-||---o<- 
+one order must have exactly one customer --> ne custimer may have 0 or many orders 
+
