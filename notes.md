@@ -127,3 +127,82 @@ A --<- B            one-to-many (crow's feet)
 -||---o<- 
 one order must have exactly one customer --> ne custimer may have 0 or many orders 
 
+### controller
+
+Model---updates---->view <br>
+ |                     |<br>
+manipulate___________sees <br>
+ |                     |<br>
+controller-<--uses--User<br>
+
+basic request : clicking on link/ url --> GET 
+more complex : form submission -> POST 
+
+**CRUD** (create read delete update) <br>
+**API** (Application programming interface) <br>
+some standard way to communicate with a server. it doesn't matter for the client if the database is made in mysql or pgsql as long as I can make a request and server returns what I want. CRUD is considered the 1st level api.
+
+### Laravel PHP framework
+<table>
+    <thead>
+        <tr>
+            <td>verb</td>
+            <td>url</td>
+            <td>action</td>
+            <td>route namecontroller</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GET</td>
+            <td>/photos</td>
+            <td>index</td>
+            <td>photos.index</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/photos/create</td>
+            <td>create</td>
+            <td>photos.create</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/photos</td>
+            <td>store</td>
+            <td>photos.store</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/photos/{photo}</td>
+            <td>show</td>
+            <td>photos.show</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/photos/{photo}/edit</td>
+            <td>edit</td>
+            <td>photos.edit</td>
+        </tr>
+        <tr>
+            <td>PUT/PATCH</td>
+            <td>/photos/{photo}</td>
+            <td>update</td>
+            <td>photos.update</td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>/photos/{photo}</td>
+            <td>destroy</td>
+            <td>photos.destroy</td>
+        </tr>
+    </tbody>
+</table>
+
+**Rules of thumb** <br>
+* should be possbile to change views without the model ever knowing (change screen from mobile to desktop but the backend should not know about it) <br>
+* should be possible to change underlying storage of model without views ever knowing (the frontend should not know if I have changed my DB from sql to nosql [ORN SQLAlchemy]) <br>
+* controllers/ actions should generally NEVER talk to a database directly (don't write SQL querry in the controller)
+
+In practice voews and controllers tend to be more closely interlinked than with models
+
+### routes  

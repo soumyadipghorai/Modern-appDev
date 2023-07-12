@@ -37,4 +37,6 @@ py -m venv env --> create virtual env
 
 pip freeze --> to show all the installed packages 
 pip freeze > requirements.txt --> create requirements.txt
+py -m http.server --> run server in python 
+localhost:8000 -> url
 """
