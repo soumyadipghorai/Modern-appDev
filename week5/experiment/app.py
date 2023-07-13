@@ -29,12 +29,16 @@ class ArticleAuthors(db.Model) :
     user_id = db.Column(db.Integer, db.ForeignKey('user.user_id'), primary_key = True, nullable = False)
     article_id = db.Column(db.Integer, db.ForeignKey('article.article_id'), primary_key = True, nullable = False)
 
-
 @app.route('/', methods = ['GET', 'POST'])
 def article() : 
     article = Article.query.all()
     print(article)
     return render_template('article.html', articles = article)
+
+@app.route('/articles_by/<userName>', methods = ['GET', 'POST'])
+def articles_by_author(userName) : 
+    article = Article.query.filter(Article.authors.any(user_name = userName)) 
+    return render_template('articles_by_author.html', articles = article, user_name = userName)
 
 if __name__ == '__main__' : 
     app.run(
