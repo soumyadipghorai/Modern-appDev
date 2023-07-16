@@ -13,6 +13,16 @@
 * client server 
 * distributed- peer to peer 
 
+8bits - ASCII
+UCS-2 - 2byte 
+UCS-4 4 byte
+
+5000 character doc --> 
+UCS-4 --> 32b*5000 = 160000 bits
+ASCII --> 8b * 5000 = 40k 
+original 7bit --> 7b * 5000 = 35k
+
+
 ### design pattern
 MVC --> model view controller 
   
