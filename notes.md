@@ -215,4 +215,128 @@ some standard way to communicate with a server. it doesn't matter for the client
 
 In practice voews and controllers tend to be more closely interlinked than with models
 
-### routes  
+<!-- ### routes   -->
+
+**REST and APIs**
+
+REST - REpresentational State Transfer (software architecture)
+
+constraint 1: client - server <br>
+    server stores the data --> connects over the network to various clients 
+
+constraint 2: stateless <br>
+    server can't assume the state of the client or the server 
+
+constraint 3: layered system <br>
+    in between client and server there might be load balancers (front end to the server)<br>
+    auth server --> authenticate the user <br>
+    pool of backends --> real computation happens here. And the client need not know from where the response came 
+
+constraint 4: cacheability <br>
+    respnse directly from proxy cache without going to backend. Can data be stored in the cache memory 
+
+constraint 5: Uniform interface <br>
+    client and server are expected to interact in a uniform and predictable manner 
+
+constraint 6: Code on demand <br>
+    server can extend client functionality -> js, java applets 
+
+**Sequence** <br>
+URI -> uniform resource indentifier <br>
+URL -> uniform resource locator <br>
+URI > URL <br>
+
+client access a resource indentifier -> resource operation specified as part f access [GET, POST] -> server responds with new resource indentifier 
+
+GET -> Retrieve representation of target resource's state <br>
+POST -> Enclose data in request<br>
+PUT -> create a target resource with data enclosed<br>
+DELETE -> delete the target resource<br>
+
+idempotent -> GET, PUT, DELETE <br>
+POST -> not 
+
+**API** <br>
+input -> text HTTP <br>
+output -> complex data types --> JSON, XML, YAML 
+
+different from internval server representation 
+different from final view presentation 
+
+YAML -> yet another markup language -> common alt, esp for documentation and configuration 
+
+q(required) = search terms <br>
+limit = max num of search results to return b/w 1-100, default 50 
+
+respose
+
+```
+200 --> success, result found/ no result found 
+400 --> query param not set / invalid limit requested 
+500 --> search error 
+```
+
+**OpenAPI specification (OAS)**
+
+```
+openapi: 3.1.0
+info: 
+    title: A minimal OpenAPI document
+    version: 0.0.1
+paths: {} # No endpoints defined
+```
+
+Paths
+```
+openapi: 3.1.0
+info: 
+    title: Tic Tac Toe
+    description: |
+        This API allows writing down marks on a Tic Tac Toe board 
+        and requesting the state of the board or of individual squares.
+    version: 1.0.0
+paths:
+    /board:
+```
+
+Operation object
+```
+paths: 
+    /board: 
+        get: 
+            summary: Get the whole board 
+            description: Retrieves the current state of the board and the winner. 
+            parameters: 
+                ...
+            responses:
+                "200": 
+                    description: Everythin went fine 
+                    content: 
+                        application/json: 
+                            schema: 
+                                type: integer
+                                minimum: 1
+                                maximum: 100
+                        text/html: 
+                            ... 
+                        text/*: 
+                            ...
+```
+
+```
+application/json: 
+    schema: 
+        type: object
+        properties: 
+        productName:
+            type: string 
+        productPrice: 
+            type: number 
+``` 
+
+**Best practice:**
+1. design first vs code-first 
+2. single source of truth 
+3. source code version control 
+4. OpenAPI is open- public dcumentation better to identify problems 
+5. Automated tools, editors- make use of them!
