@@ -340,3 +340,28 @@ application/json:
 3. source code version control 
 4. OpenAPI is open- public dcumentation better to identify problems 
 5. Automated tools, editors- make use of them!
+
+```
+types of storage: 
+On-chip register: 10s-100s of bytes 
+SRAM(cache): 0.1 - 1MB (static RAM)
+DRAM : 0.1 - 10GB (dynamic RAM)
+SSD - Flash: 1- 100GB 
+Magnetic disk (HDD): 0.1 - 10 TB 
+Optical, magnetic, holographic,...
+```
+
+latency : <br>
+regster < SRAM < DRAM < SSD < HDD<br>
+1st --> slow 
+
+throughput : num of bytes/second that can be read (higher is better)<br>
+DRAM > SSD > HDD 
+
+Density: number of bits stored per unit area/cost (higher is better)<br>
+HDD > SSD > DRAM > SRAM > Regs 
+
+cold storage: amazon glacier, google, azure <br>
+* high latency or retrieval: upto 48hours 
+* very high durability and very low cost 
+

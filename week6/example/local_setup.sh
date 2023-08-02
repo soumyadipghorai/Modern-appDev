@@ -1,24 +1,22 @@
 #! /bin/sh
-echo "===================================="
-echo "welcome to the setup. it will setup the local ven"
-echo "and it will install required packages"
-echo "you can rerun this without any issues"
-echo "===================================="
+echo "======================================================================"
+echo "Welcome to to the setup. This will setup the local virtual env." 
+echo "And then it will install all the required python libraries."
+echo "You can rerun this without any issues."
+echo "----------------------------------------------------------------------"
+if [ -d ".env" ];
+then
+    echo ".env folder exists. Installing using pip"
+else
+    echo "creating .env and install using pip"
+    python3.7 -m venv .env
+fi
 
-if [ -d "env"]; 
-then 
-    echo "env folder exists. installing using pip"
-else 
-    echo "creating env and install using pip"
-    python3.7 -m venv env 
+# Activate virtual env
+. env/bin/activate
 
-fi 
-
-# activate virtual env 
-env/Scripts/activate 
-
-# upgrade pip 
-pip install --upgrade pip 
-pip install -r requirements.txt 
-
-deactivate 
+# Upgrade the PIP
+pip install --upgrade pip
+pip install -r requirements.txt
+# Work done. so deactivate the virtual env
+deactivate

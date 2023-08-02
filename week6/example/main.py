@@ -1,6 +1,7 @@
 import os 
 from flask import Flask 
 from flask_restful import Resource, Api
+from application import config
 from application.config import LocalDevelopmentConfig 
 from application.database import db 
 
@@ -20,7 +21,7 @@ def create_app() :
     return app, api 
 
 app, api = create_app()
-
+ 
 # import all the controllers so they are loaded 
 from application.controllers import *
 from application.api import UserAPI

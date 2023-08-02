@@ -16,3 +16,4 @@ class ArticleAuthors(db.Model) :
     __tablename__ = 'article_authors'
     user_id = db.Column(db.Integer, db.ForeignKey('user.user_id'), primary_key = True, nullable = False)
     article_id = db.Column(db.Integer, db.ForeignKey('article.article_id'), primary_key = True, nullable = False)
+ 
