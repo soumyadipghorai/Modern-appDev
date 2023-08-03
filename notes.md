@@ -365,3 +365,16 @@ cold storage: amazon glacier, google, azure <br>
 * high latency or retrieval: upto 48hours 
 * very high durability and very low cost 
 
+**Data Scearch:**
+
+O(1) --> constant time independent of input size <br>
+O(logN) --> log in input size <br>
+O(N) --> linear in input size <br>
+O(N^k) --> polynomial in input size <br>
+O(k^N) --> exponential in input size <br>
+
+linear search < binary search (sorted)
+
+binary search tree (alter native) --> problem self-balancing
+
+hash table --> compute an index for an element: O(1)
