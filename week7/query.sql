@@ -27,3 +27,5 @@ WHERE index = 1 OR A = 10;
 
 -- no index spans all rows 
 WHERE index1 = 1 OR index2 = 10;
+
+

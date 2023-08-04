@@ -432,4 +432,37 @@ data store
 replication possible in RDBMS --> geographically distributed replication harder 
 
 scale up(tradtional) --> more RAM, faster network, requires machine restart 
-scale-out --> multiple servers, harder to enforce consistency
+scale-out --> multiple servers, harder to enforce consistency, better suited cloud models, auto scale up 
+
+application specific --> financial transaction --> rdbms 
+cloud --> social network 
+
+```
+name = form.request['name']
+pswd = form.request['pswd']
+
+sql = "SELECT * FROM Users WHERE name = '"+name+"' AND Pass = '"+ pswd + "'"
+
+# fishy
+name = " OR ""="
+pswd = " OR ""="
+SELECT * FROM Users WHERE Name = "" OR "" AND Pass = "" OR "";
+
+# result is all the users from the database 
+
+name = a; DROP TABLE Users; 
+
+SELECT * FROM Users WHERE Name = a; DROP TABLE Users; 
+
+# destroy all your data 
+```
+that's we need to do all the validation
+
+SQL injection --> use known frameworks, best practices and validation 
+
+
+**https(secure sockets)** --> in http a third party can tap in b/w and see all the communication b/w server and client. https makes it impossible to tap in b/w.
+
+only secures link for data transfer but doesn't perform validation check. <br>
+negative impact on caching of resources like static files. <br>
+some overhead on performance.
