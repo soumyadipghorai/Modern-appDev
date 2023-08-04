@@ -378,3 +378,58 @@ linear search < binary search (sorted)
 binary search tree (alter native) --> problem self-balancing
 
 hash table --> compute an index for an element: O(1)
+
+**search in a database:** 
+
+stored in tables with column --> maintain index of columns to search on 
+
+**hash index :**
+1. only used in in-memory tables 
+2. only for equality comparisons not for range
+3. doesn't help with order by 
+4. partial key prefix can't be used 
+5. very fast where applicable
+
+Document database: <br>
+json file --> mongoDB, amazon documentDB 
+
+key-value: <br>
+python dict --> redis, berkeleyDB <br>
+good for lookup not for range 
+
+column store: <br>
+traditional relationalDB --> cassandra, HBase 
+
+graphs: <br>
+friend of a friend --> Neo4j, amazon neptune 
+
+time series database: <br>
+application specific, used for log analysis, performance analysis --> RRDTool, InfluzDB, Prometheus <br>
+search --> elasticsearch, graphana 
+
+NoSQL --> not only SQL 
+
+ACID: <br>
+transactio: core principle of database <br>
+atomic --> either entire row is created or left unchanged 
+consistent --> 2 copies of database will have exact same values 
+isolated --> one transaction should not interfare b/w another transaction
+durable --> saved in storage 
+
+why not ACID? 
+* consistency is hard to meet --> eventual consistency is easier to meet 
+* **financial transactions** absolutely require ACID 
+
+data store 
+--> in-memory (fast, doesn't scale across machine)
+--> disk (different data structure)
+
+**redundancy** --> multiple copies of same data, often used in connection with backups, one copy is still the master <br>
+**replication** --> usually in context of performance, live replication requires careful design 
+
+**BASE (basically available softsate eventual consistent)** --> stress on availability
+
+replication possible in RDBMS --> geographically distributed replication harder 
+
+scale up(tradtional) --> more RAM, faster network, requires machine restart 
+scale-out --> multiple servers, harder to enforce consistency
