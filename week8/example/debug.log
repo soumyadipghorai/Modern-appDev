@@ -1,0 +1,160 @@
+2023-08-04 22:53:01,512 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:53:01,516 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:53:05,886 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:53:05,911 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "GET / HTTP/1.1" 200 -
+2023-08-04 22:53:05,923 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:53:05,981 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:54:52,810 DEBUG main Thread-5 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:54:52,817 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "GET / HTTP/1.1" 200 -
+2023-08-04 22:54:52,839 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:54:52,845 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:55:15,373 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-04 22:55:15,374 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-04 22:55:15,375 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:55:16,093 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:55:16,096 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:55:16,136 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:55:16,151 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "GET / HTTP/1.1" 200 -
+2023-08-04 22:55:16,166 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:55:16,231 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:56:28,943 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\config.py', reloading
+2023-08-04 22:56:29,077 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:56:30,064 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:56:30,068 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:56:34,352 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 22:56:34,456 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:56:35,289 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:56:35,292 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:57:02,579 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 22:57:02,684 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:57:03,608 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:57:03,611 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:57:08,169 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:57:08,194 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "GET / HTTP/1.1" 200 -
+2023-08-04 22:57:08,206 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:57:08,271 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:57:09,815 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "[35m[1mGET /articles_by/ghorai HTTP/1.1[0m" 500 -
+2023-08-04 22:57:09,838 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-04 22:57:09,841 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-04 22:57:09,861 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-04 22:57:09,898 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 22:57:55,462 INFO werkzeug Thread-10 (process_request_thread) :  * To enable the debugger you need to enter the security pin:
+2023-08-04 22:57:55,463 INFO werkzeug Thread-10 (process_request_thread) :  * Debugger pin code: 917-656-372
+2023-08-04 22:57:55,463 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:55] "GET /articles_by/ghorai?__debugger__=yes&cmd=printpin&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:58:54,468 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:58:54] "GET /articles_by/ghorai?__debugger__=yes&cmd=pinauth&pin=917-656-372&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:05,114 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:05] "GET /articles_by/ghorai?&__debugger__=yes&cmd=val&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:08,928 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:08] "GET /articles_by/ghorai?&__debugger__=yes&cmd=10/2&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:17,566 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:17] "GET /articles_by/ghorai?&__debugger__=yes&cmd=dump()&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:17,588 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:17] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1" 200 -
+2023-08-04 22:59:41,563 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:41] "GET /articles_by/ghorai?&__debugger__=yes&cmd=user&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 23:00:51,304 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:00:51,612 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:00:54,276 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:00:54,279 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 23:01:18,659 DEBUG main Thread-6 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 23:01:18,677 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "GET / HTTP/1.1" 200 -
+2023-08-04 23:01:18,699 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 23:01:18,759 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 23:02:21,869 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:02:22,013 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:02:22,999 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:02:23,002 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 23:03:00,852 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[35m[1mGET /articles_by/ghorai HTTP/1.1[0m" 500 -
+2023-08-04 23:03:00,955 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,958 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,967 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,977 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 23:04:23,127 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:04:23,288 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:04:24,453 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:04:24,457 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:33:31,021 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-05 12:33:31,028 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-05 12:33:31,029 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:33:31,820 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:33:31,878 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:33:36,832 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-05 12:33:36,895 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:36] "GET / HTTP/1.1" 200 -
+2023-08-05 12:33:36,957 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:36] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:33:37,257 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:37] "GET /static/style.css HTTP/1.1" 200 -
+2023-08-05 12:33:59,129 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:59] "[33mGET /search?q=flask HTTP/1.1[0m" 404 -
+2023-08-05 12:34:25,174 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:25] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:34:40,657 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:34:40,866 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:34:42,026 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:34:42,031 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:34:42,067 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:42] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:34:48,343 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:48] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:35:15,163 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:35:15,325 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:35:16,634 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:35:16,634 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:35:16,797 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "GET /search?q=bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:16,809 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:16,867 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:35:43,722 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:43,744 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:43,755 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:35:45,575 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:45,594 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:45,598 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:36:07,032 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:36:07,169 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:36:08,122 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:36:08,130 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:36:08,636 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:36:08,658 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:36:08,734 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:36:38,112 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:36:38,227 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:36:39,176 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:36:39,176 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:36:40,003 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:36:40,031 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:36:40,101 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:38:15,214 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:38:15,231 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:38:15,235 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:08:07,616 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:08:07,834 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:08:09,088 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:08:09,088 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:08:10,327 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "[35m[1mGET /search?q=Bootstrap HTTP/1.1[0m" 500 -
+2023-08-05 13:08:10,426 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-05 13:08:10,439 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-05 13:08:10,461 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-05 13:08:10,477 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:08:16,406 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:08:16,593 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:08:17,546 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:08:17,554 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:08:17,604 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 13:08:17,619 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 13:08:17,675 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:08:55,702 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "GET /search?q=lorem HTTP/1.1" 200 -
+2023-08-05 13:08:55,725 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 13:08:55,734 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:27:27,828 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\models.py', reloading
+2023-08-05 13:27:27,948 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:27:29,138 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:27:29,144 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:27:34,632 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\models.py', reloading
+2023-08-05 13:27:34,748 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:27:35,750 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:27:35,752 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:29:10,724 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:29:10,968 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:29:12,052 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:29:12,055 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:29:17,565 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[35m[1mGET /search?q=lorem HTTP/1.1[0m" 500 -
+2023-08-05 13:29:17,661 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,662 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,677 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,693 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:29:25,022 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading

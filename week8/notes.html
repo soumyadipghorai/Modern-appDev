@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const para = document.querySelectorAll('p');
+        alert(para[0].nodeName);
+
+        // executed when window is loaded 
+        window.onload = function(){
+            const heading = document.createElement("h1"); 
+            const heading_text = document.createTextNode("big head");
+
+            heading.appendChild(heading_text); 
+            document.body.appendChild(heading);
+        };
+
+        const email = document.getElementById('mail'); 
+
+        email.addEventListener('input', function (event){
+            if (email.validity.typeMismatch){
+                email.setCustomValidity('email expected');
+            }else {
+                email.setCustomValidity("");
+            }
+        });
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="mail">email</label>
+        <input type="email" name="mail" id="mail">
+        <button>submit</button>
+    </form>
+</body>
+</html>

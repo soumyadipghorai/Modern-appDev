@@ -466,3 +466,21 @@ SQL injection --> use known frameworks, best practices and validation
 only secures link for data transfer but doesn't perform validation check. <br>
 negative impact on caching of resources like static files. <br>
 some overhead on performance.
+
+static--> all pages on site are statically generated, compiled ahead of time
+
+runtime HTML generation : <br>
+traditional CGI/ WSGI based apps --> flask, django, ruby 
+
+static pages --> apache ~ 10k req/s - 512 parallel requests 
+Nginx ~20k req/s - 512 parallel requests 
+
+**Asynchronous update** <br>
+AJAX (Asynchronous js and xml) <br>
+
+brython --> run python inside browser <br>
+transpilation --> translation - compilation 
+
+WASM --> Web assembly  
+
+sandbox --> secure area that JS engine has access to 
