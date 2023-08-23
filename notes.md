@@ -484,3 +484,33 @@ transpilation --> translation - compilation
 WASM --> Web assembly  
 
 sandbox --> secure area that JS engine has access to 
+
+
+#### Types of access : 
+* read-only 
+* read-write(CRUD)
+* modify but not create 
+
+#### Discretionary vs mandatory: 
+* Discretionary --> you have control over who you share with, forwarding emails, changing files access modes etc 
+* mandatory --> decisions made by centralized management - users can't even share info without permission, typically in military or high security scenarios. 
+
+#### Principle of least privilege :
+entity should have minimal access required to do the job 
+
+benefits: 
+* better security: 
+* better stability 
+* ease of deployment   
+
+#### Types of security checks 
+* obscurity (generally very bad idea) --> application listens on non-standard port known only to specific people. 
+* address --> where are you coming from 
+* login --> username/password 
+* tokens --> access tokens that are difficult/impossible to duplicate, can be used for machine-to-machine authentication without password. 
+
+`
+401 - unauthorized 
+404 - not found 
+403 - forbidden 
+`

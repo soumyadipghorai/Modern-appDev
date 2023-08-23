@@ -15,7 +15,7 @@ db.init_app(app)
 app.app_context().push()
 
 
-
+ 
 
 class student(db.Model):
     __tablename__ = 'student'
