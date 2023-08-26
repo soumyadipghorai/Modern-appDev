@@ -12,7 +12,7 @@ def article() :
 @app.route('/articles_by/<userName>', methods = ['GET', 'POST'])
 def articles_by_author(userName) : 
     # code will come and stop here 
-    import pdb; pdb.set_trace() # debug
+    # import pdb; pdb.set_trace() # debug
     # you can use flask shell
     val = 0 
     calc = 5/val
@@ -28,6 +28,5 @@ def search() :
     results = ArticleSearch.query.filter(ArticleSearch.content.op('MATCH')(q)).all()
 
     return render_template('results.html', q = q, results = results)
-
 
 # can use blueprint and views 

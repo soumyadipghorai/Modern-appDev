@@ -509,8 +509,25 @@ benefits:
 * login --> username/password 
 * tokens --> access tokens that are difficult/impossible to duplicate, can be used for machine-to-machine authentication without password. 
 
-`
+```
 401 - unauthorized 
 404 - not found 
 403 - forbidden 
-`
+```
+
+#### Digest authentication 
+* message digest: cryptographic function --> MD5, SHA1, SHA256 
+* one-way function --> f(A) = B, very difficult to compute A given B 
+
+###### HTTP Digest authentication
+* server provides a nonce(number used once) to prevent spoofing 
+* client must create a secret value including nonce 
+    * HA1 = MD5(username:realm:password)
+    * HA2 = MD5(method: URI)
+    * response = MD5(HA1:nonce:HA2)
+server and client know all parameters above, so both will compute same. 
+
+GET request are very insecure for user data, POST requests are more secure. 
+
+* One TCP connection --> one security check may be sufficient
+* wihtout connection KeepAlive --> each request needs new TCP connection 
