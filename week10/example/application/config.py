@@ -19,6 +19,17 @@ class LocalDevelopmentConfig(Config) :
     SECURITY_SEND_REGISTER_EMAIL = False # send automatic email
     SECURITY_UNAUTHORIZED_VIEW = None # if its unauthorized through 403 error
 
+class TestingConfig(Config) : 
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:' # using in memory database
+    DEBUG = True 
+    SECURITY_PASSWORD_HASH = 'bcrypt'
+    SECRET_KEY = "KJ!&&S18@^#73jhcbwic!@#^"
+    SECURITY_PASSWORD_SALT = '289&#219KAJ@!*@Dach%^jb!!*@'
+    SECURITY_REGISTERABLE = True 
+    SECURITY_SEND_REGISTER_EMAIL = False 
+    SECURITY_UNAUTHORIZED_VIEW = None
+    WTF_CSRF_ENABLED = False 
+
 """
 class ProductionDevelopmentConfig(Config) : 
     SQLITE_DB_DIR = os.path.join(basedir, "../db_directory")

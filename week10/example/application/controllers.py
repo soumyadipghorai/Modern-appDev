@@ -11,6 +11,7 @@ def article() :
     return render_template('article.html', articles = article)
 
 @app.route('/articles_by/<userName>', methods = ['GET', 'POST'])
+@login_required
 @roles_required('author')
 def articles_by_author(userName) : 
     # code will come and stop here 

@@ -2,7 +2,7 @@ import os
 from flask import Flask 
 from flask_restful import Resource, Api
 from application import config
-from application.config import LocalDevelopmentConfig 
+from application.config import LocalDevelopmentConfig, TestingConfig
 from application.database import db 
 from flask_security import Security, SQLAlchemySessionUserDatastore, SQLAlchemyUserDatastore
 from application.models import User, Role 
@@ -19,7 +19,13 @@ api = None
 def create_app() : 
     app = Flask(__name__, template_folder = 'templates')
     if os.getenv('ENV', 'development') == 'production' :
+        app.logger.info("currently no production config is setup")
         raise Exception('Currently no production config is setup')
+
+    elif os.getenv('ENV', "development") == "testing" : 
+        app.logger.info("starting testing")
+        print("start testing")
+        app.config.from_object(TestingConfig)
 
     else : 
         print('starting local dev')
